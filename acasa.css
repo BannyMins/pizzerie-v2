@@ -1,0 +1,69 @@
+/* CSS pentru pagina de acasa */
+
+body {
+  background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+header h1 {
+  margin: 0;
+  text-align: center;
+}
+
+nav {
+  background-color: #4CAF50;
+  overflow: hidden;
+}
+
+nav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+section {
+  margin-top: 20px;
+}
+
+section h2 {
+  font-size: 32px;
+  text-align: center;
+}
+
+section p {
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+section .cta {
+  background-color: #4CAF50;
+  color: #fff;
+  display: block;
+  font-size: 24px;
+  margin: 20px auto;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  width: 200px;
+}
